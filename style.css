@@ -7,6 +7,7 @@
 body{
     margin:20px 10%;
     text-align: center;
+    background-color: rgb(194, 241, 226);
 }
 
 h1{
@@ -18,11 +19,12 @@ table{
         width: 100%;
         margin-bottom : 50px;
         table-layout: fixed;
+        font-size: 25px;
 }
 
 th{
 	font-weight: bold;
-	background-color: #EEE;
+	background-color: rgba(128, 128, 128, 0.418);
     border: 1px solid #ccc;
 }
 td{
@@ -35,7 +37,7 @@ form{
 
 label{
     font-weight: bold;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 input{
@@ -59,6 +61,7 @@ input{
 	border-color: #010f18;
     font-weight: bolder;
     cursor: pointer;
+    font-size: 18px;
     /* margin: 30px 35%; */
 }
 
@@ -69,6 +72,8 @@ input{
 
 footer{
     text-align: center;
+    font-size: 16px;
+    font-weight: bolder;
 }
 
 @media(max-width: 500px){
